@@ -66,9 +66,9 @@ global.wm = process.env.GL_WM || "© Xʟɪᴄᴏɴ-Iɴᴄ"
 //________________________________________________________________________________________________________
 global.botscript = process.env.GL_SC || 'https://github.com/salmanytofficial/XLICON-V3-MD' //script link
 //________________________________________________________________________________________________________
-global.packname = process.env.PACK_NAME || "𝐗𝐋𝐈𝐂𝐎𝐍-𝐕𝟑"
+global.packname = process.env.PACK_NAME || "SHOKO-MD"
 //________________________________________________________________________________________________________
-global.author = process.env.AUTHER_NAME || "ᗰᗩᗪE ᗷY 𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿"
+global.author = process.env.AUTHER_NAME || "ROGER"
 //________________________________________________________________________________________________________
 global.creator = process.env.GL_DEVS || "923184070915@s.whatsapp.net"
 //________________________________________________________________________________________________________
@@ -85,15 +85,15 @@ global.typemenu = process.env.MENU_DESIGN || 'v4' // menu type 'v1' => 'v8'
 //________________________________________________________________________________________________________
 global.typereply = process.env.REPLY_TYPE || 'v2' // reply type 'v1' => 'v3'
 //________________________________________________________________________________________________________
-global.autoblocknumber = process.env.AUTO_BAN || '212' //set autoblock country code
+global.autoblocknumber = process.env.AUTO_BAN || '' //set autoblock country code
 //________________________________________________________________________________________________________
-global.antiforeignnumber = process.env.AUTO_BLOCK || '212' //set anti foreign number country code
+global.antiforeignnumber = process.env.AUTO_BLOCK || '' //set anti foreign number country code
 //________________________________________________________________________________________________________
-global.welcome = process.env.WELCOME_MSG || true //welcome/left in groups
+global.welcome = process.env.WELCOME_MSG || false //welcome/left in groups
 //________________________________________________________________________________________________________
 global.anticall = process.env.GL_NOCALL || false //bot blocks user when called
 //________________________________________________________________________________________________________
-global.autoswview = process.env.AUTO_STATUS_SEEN || true //auto status/story view
+global.autoswview = process.env.AUTO_STATUS_SEEN || false //auto status/story view
 //________________________________________________________________________________________________________
 global.adminevent = process.env.ANNOUNCE_MSG  || true //show promote/demote message
 //________________________________________________________________________________________________________
